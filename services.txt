@@ -1,0 +1,24 @@
+Platform:
+-auth service: signin, signup, reset access token, reset refresh token, (encryption + hashing) 
+
+-user service:  -handling profile
+		-handling basic CRUD
+		-handling membership from payment DB   
+		-handle jwt permission
+
+-social media service: -messaging service
+		       -blog service
+		       -handle jwt permission
+
+-cessation service: -handle jwt permission
+		    -survey service
+		    -planning service
+		    -consulting service (premium)
+		    -daily progress service
+		    -handwear tracking service
+		    -branching service
+		    -award service
+
+-payment service: -store transaction
+		  -help handle membership
+		  -handle jwt permission
